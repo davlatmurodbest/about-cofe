@@ -1,0 +1,37 @@
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin li {
+    color: var(--color-dark);
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+
+    :hover {
+        color: var( --color-grey);
+    }
+}
+
+@mixin btn {
+    color: var(--color-Light);
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    border-radius: 6px;
+    background-color: #66D2CF;
+    width: 100%;
+    max-width: 217px;
+    padding: 16px 31px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
